@@ -3,6 +3,11 @@
      padding: 0;
      box-sizing: border-box;
 }
+i{
+     color: white;
+     font-size: 20px;
+     text-shadow: 1px 1px 1px rgb(35, 33, 33);
+}
 
 #novoContato{
      display: none;
@@ -18,7 +23,24 @@
 }
 
 .contato:hover{
+     text-shadow: 1px 1px 1px rgb(35, 33, 33);
      transform: scale(1.05);
      transition: all 0.3s;
      box-shadow: 3px 3px 6px rgb(37, 36, 36);
+}
+
+.buscaContato{
+     display: flex;
+     align-items: center;
+}
+
+.botoesControle{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     position: relative;
+}
+
+#editarContato{
+     display: none;
 }
